@@ -1,0 +1,4 @@
+type=M
+id=ga1/ga1ma2
+name=Minus basic
+desc=description of Minus basic
