@@ -1,4 +1,4 @@
-<project name="DEV Ant Deployer" default="DEV.app.deploy" basedir=".">
+<project name="bb.DEV Ant Deployer" default="DEV.app.deploy" basedir=".">
 
 	<property file="build.properties" />
 
@@ -100,6 +100,7 @@
 			categoryMapping="ngjs=J#ngpng=I#ngcss=S"
 			bomRoot="/bom/" 
 			appRoot="/app/" 
+			context="/bb"
 			metaName="/meta.txt"
 			cdnName="/7cdn.txt"
 			modName="/7mod.txt"
@@ -135,7 +136,7 @@
 	</target>
 	
 	<target name="DEV.domgen" description="ngdom file generation" depends="">
-		<ngdom include=".*\.htm" exclude="__NOMATCH__" fileExtension="ngdom" path="${project.root}" compact="false" verFile="${dev.bomver.file}" verSeed="1d" verSeedName="@VERSION_SEED@"/>
+		<ngdom include=".*\.htm" exclude="__NOMATCH__" fileExtension="ngdom" path="${project.root}" context="/bb" compact="false" verFile="${dev.bomver.file}" verSeed="1d" verSeedName="@VERSION_SEED@"/>
 	</target>
 	
 	<target name="DEV.push.DEBUG" description="" depends="">
