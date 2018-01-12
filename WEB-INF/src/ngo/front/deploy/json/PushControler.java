@@ -120,14 +120,6 @@ public class PushControler {
         	});
         	
         	//4. do insertion and updating
-        	toBeUpdateBoms.entrySet().stream().forEach(s -> {
-        		pushService.updateBomObject(s.getValue());
-            });
-        	toBeInsertBoms.entrySet().stream().forEach(s -> {
-        		pushService.addBomObject(s.getValue());
-            });
-        	
-        	//4. do insertion and updating
         	int countUpdated = 0, countInserted = 0;
         	for (Map.Entry<String,Bom> b : toBeUpdateBoms.entrySet()){
         		countUpdated+=pushService.updateBomObject(b.getValue());
