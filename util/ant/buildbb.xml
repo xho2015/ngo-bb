@@ -1,6 +1,6 @@
-<project name="KidsMath Ant Deployer" default="KM.app.deploy" basedir=".">
+<project name="bb.PROD Ant Deployer" default="KM.app.deploy" basedir=".">
 
-	<property file="buildkm.properties" />
+	<property file="buildbb.properties" />
 
 	<path id="catalina-ant-classpath">
 		<fileset dir="${tomcat.home}/lib">
