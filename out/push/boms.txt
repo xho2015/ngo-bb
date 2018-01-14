@@ -4,7 +4,7 @@ app.lib.dat-gui-min-ngjs|/bb/app/lib/dat.gui.min.ngjs|lib|20e4b1e163d82d70c99ba1
 app.lib.jquery-1-9-1-min-ngjs|/bb/app/lib/jquery-1.9.1.min.ngjs|lib|2b7cf2de286a2cb1ed594994d6b164c6||J
 app.lib.taffy-min-ngjs|/bb/app/lib/taffy.min.ngjs|lib|5ce510bd2c51f6193c2294eecca8a2c7||J
 app.lib.three-min-ngjs|http://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js#app/lib/three.min.ngjs|lib|20881c280062fc8ea3e800127cd56504||J
-app.main.bootstrap-min-ngjs|/bb/app/main/bootstrap.min.ngjs|main|e83687a5bc9e8796b31d695ddfb4a728||J
+app.main.bootstrap-min-ngjs|/bb/app/main/bootstrap.min.ngjs|main|c664847af50c89c9a61c966dc5bfca33||J
 app.main.common-min-ngjs|/bb/app/main/common.min.ngjs|main|ab6ac2f50efea611d9af6eaa60cf003f||J
 app.main.main-min-ngjs|/bb/app/main/main.min.ngjs|main|551d5caec1ccb0db54dfc90562ba4f07||J
 app.main.panel-ui-min-ngjs|/bb/app/main/panel.ui.min.ngjs|lib1|bbf058a73e09b8815cffe1fa01964d1b|16|J
