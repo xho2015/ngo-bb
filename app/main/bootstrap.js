@@ -307,7 +307,7 @@ var CACHE = (function() {
 	
 	my.loadStorage = function (resId) {
 		if (typeof(Storage) !== "undefined") {
-			return JSON.parse(localStorage.getItem(resId));
+			return localStorage.getItem(resId) !=="undefined" ? JSON.parse(localStorage.getItem(resId)) : null;
 		} else {		    
 			return null; // Sorry! No Web Storage support.
 		}
